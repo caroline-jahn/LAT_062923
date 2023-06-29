@@ -16,7 +16,7 @@ Behavioral data (Fig1)
 
 In Codes_Figure_1
 
-doExecuteMasterScriptResetRWVBMC(fsroot,monkey,N_channels,analysis) (winning model: N_channels=6, analysis=‘Reset’)
+doExecuteMasterScriptResetRWVBMC(fsroot,monkey,N_channels,analysis) (winning model: N_channels=6, analysis=‘Reset’)
 save_Model_VBMC
 
 plot_figure1 (behavioral results per monkey)
@@ -76,7 +76,7 @@ Saved in /Volumes/buschman/Projects/Learning_Attentional_Templates/Data/General/
 10) Get the FR for each trial in time window
 In spike_count_exploreexploit
 Run extract_data_for_belief_analysis_Reset_RW.m or extract_data_for_belief_analysis_reward_end_RW.m
-Saved in /Volumes/buschman/Projects/Learning_Attentional_Templates/Analysis/Electrophy_analysis/exploreexploit/Reset_RW_model
+Saved in /Volumes/buschman/Projects/Learning_Attentional_Templates/Analysis/Electrophy_analysis/exploreexploit/Reset_RW_model
 
 Figure 2 and S2
 
