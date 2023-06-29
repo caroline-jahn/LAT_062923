@@ -11,7 +11,7 @@ Set the path!
 You need to download:
 - VBMC toolbox (https://github.com/lacerbi/vbmc)
 - NPMK toolbox (https://github.com/BlackrockNeurotech/NPMK)
-- redPLXFileC and Matlab Offline Files SDK (Plexon software)
+- readPLXFileC and Matlab Offline Files SDK (Plexon software)
 - CircStat2012a toolbox (https://github.com/anne-urai/Tools/tree/master/CircStat2012a)
 - Violinplot-Matlab toolbox (https://github.com/bastibe/Violinplot-Matlab)
 
