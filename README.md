@@ -1,8 +1,6 @@
 # LAT_062923
 Codes for "Learning attentional templates for value-based decision-making"
 
-Pipeline for LAT analysis
-
 Caroline Jahn - 06/29/23
 
 For now, the raw data is not available. We will deposit the data and the codes before publication.
