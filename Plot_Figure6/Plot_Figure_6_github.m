@@ -15,10 +15,6 @@ shadedErrorBar(Figure_6A.window_start_list(4:end),Figure_6A.LIP.mean_r_chosen_ip
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.LIP.p_chosen_contra_boot,0.8,Figure_6A.color_for_ROI(n_color,:),[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.LIP.p_chosen_ipsi_boot,0.75,Figure_6A.color_for_ROI(n_color,:),[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.LIP.p_ch_contra_ipsi,0.85,'k',[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
-
-yl.LabelVerticalAlignment = 'middle';
-yl.LabelHorizontalAlignment = 'right';
-yl.FontSize=12;
 text(-575,0.85,'Contra ≠ Ipsi')
 text(-575,0.8,'Contra')
 text(-575,0.75,'Ipsi') 
@@ -40,10 +36,6 @@ shadedErrorBar(Figure_6A.window_start_list(4:end),Figure_6A.FEF.mean_r_chosen_ip
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.FEF.p_chosen_contra_boot,0.8,Figure_6A.color_for_ROI(n_color,:),[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.FEF.p_chosen_ipsi_boot,0.75,Figure_6A.color_for_ROI(n_color,:),[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.FEF.p_ch_contra_ipsi,0.85,'k',[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
-
-yl.LabelVerticalAlignment = 'middle';
-yl.LabelHorizontalAlignment = 'right';
-yl.FontSize=12;
 text(-575,0.85,'Contra ≠ Ipsi')
 text(-575,0.8,'Contra')
 text(-575,0.75,'Ipsi') 
@@ -66,9 +58,6 @@ plot_significance_level(Figure_6A.window_start_list,Figure_6A.PFC.p_chosen_contr
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.PFC.p_chosen_ipsi_boot,0.75,Figure_6A.color_for_ROI(n_color,:),[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.PFC.p_ch_contra_ipsi,0.85,'k',[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
 
-yl.LabelVerticalAlignment = 'middle';
-yl.LabelHorizontalAlignment = 'right';
-yl.FontSize=12;
 text(-575,0.85,'Contra ≠ Ipsi')
 text(-575,0.8,'Contra')
 text(-575,0.75,'Ipsi') 
@@ -89,10 +78,6 @@ shadedErrorBar(Figure_6A.window_start_list(4:end),Figure_6A.LIP.mean_r_unchosen_
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.LIP.p_unchosen_contra_boot,0.8,Figure_6A.color_for_ROI(n_color,:),[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.LIP.p_unchosen_ipsi_boot,0.75,Figure_6A.color_for_ROI(n_color,:),[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.LIP.p_unch_contra_ipsi,0.85,'k',[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
-
-yl.LabelVerticalAlignment = 'middle';
-yl.LabelHorizontalAlignment = 'right';
-yl.FontSize=12;
 text(-575,0.85,'Contra ≠ Ipsi')
 text(-575,0.8,'Contra')
 text(-575,0.75,'Ipsi') 
@@ -113,10 +98,6 @@ shadedErrorBar(Figure_6A.window_start_list(4:end),Figure_6A.FEF.mean_r_unchosen_
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.FEF.p_unchosen_contra_boot,0.8,Figure_6A.color_for_ROI(n_color,:),[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.FEF.p_unchosen_ipsi_boot,0.75,Figure_6A.color_for_ROI(n_color,:),[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.FEF.p_unch_contra_ipsi,0.85,'k',[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
-
-yl.LabelVerticalAlignment = 'middle';
-yl.LabelHorizontalAlignment = 'right';
-yl.FontSize=12;
 text(-575,0.85,'Contra ≠ Ipsi')
 text(-575,0.8,'Contra')
 text(-575,0.75,'Ipsi') 
@@ -138,10 +119,6 @@ shadedErrorBar(Figure_6A.window_start_list(4:end),Figure_6A.PFC.mean_r_unchosen_
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.PFC.p_unchosen_contra_boot,0.8,Figure_6A.color_for_ROI(n_color,:),[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.PFC.p_unchosen_ipsi_boot,0.75,Figure_6A.color_for_ROI(n_color,:),[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
 plot_significance_level(Figure_6A.window_start_list,Figure_6A.PFC.p_unch_contra_ipsi,0.85,'k',[0.01,0.05/(length(Figure_6A.window_start_list)-3), 0.01/(length(Figure_6A.window_start_list)-3)])
-
-yl.LabelVerticalAlignment = 'middle';
-yl.LabelHorizontalAlignment = 'right';
-yl.FontSize=12;
 text(-575,0.85,'Contra ≠ Ipsi')
 text(-575,0.8,'Contra')
 text(-575,0.75,'Ipsi') 
@@ -206,10 +183,6 @@ plot_significance_level(Figure_6D.window_start_list,Figure_6D.FEF.p_chosen_contr
 
 plot_significance_level(Figure_6D.window_start_list,Figure_6D.PFC.p_chosen_contra_sim,0.8,Figure_6D.color_for_ROI(3,:),[0.01,0.05/(length(Figure_6D.window_start_list)-3), 0.01/(length(Figure_6D.window_start_list)-3)])
 plot_significance_level(Figure_6D.window_start_list,Figure_6D.PFC.p_chosen_contra_diss,0.55,Figure_6D.color_for_ROI(3,:),[0.01,0.05/(length(Figure_6D.window_start_list)-3), 0.01/(length(Figure_6D.window_start_list)-3)])
-
-yl.LabelVerticalAlignment = 'middle';
-yl.LabelHorizontalAlignment = 'right';
-yl.FontSize=12;
 text(-575,0.95,'Alignment to global')
 text(-575,0.9,'LIP')
 text(-575,0.85,'FEF')
