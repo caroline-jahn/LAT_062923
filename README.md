@@ -1,8 +1,23 @@
-Pipeline for LAT analysis
+Learning attentional templates for value-based decision-making
 
-Caroline Jahn - 06/29/23
+Caroline I. Jahn1, Nikola T. Markov1, Britney Morea1, R. Becket Ebitz1 and Timothy J. Buschman1,2
 
-For now, the raw data is not available. We will deposit the data and the codes before publication.
+Affiliations:
+1 Princeton Neuroscience Institute, Princeton University
+2 Department of Psychology, Princeton University
+
+Plot main figures in manuscript
+
+Plot_Figure1
+Plot_Figure2
+Plot_Figure3
+Plot_Figure4
+Plot_Figure5
+Plot_Figure6
+
+Codes used for LAT analysis
+
+For now, the raw data is not available. We will make the data and the codes available before publication.
 
 Set the path!
 You need to download:
